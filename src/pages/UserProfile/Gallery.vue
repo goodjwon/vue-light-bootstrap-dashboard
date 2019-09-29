@@ -1,6 +1,6 @@
 <template>
   <card class="card-image">
-    <img src="https://ununsplash.imgix.net/photo-1431578500526-4d9613015464?fit=crop&fm=jpg&h=300&q=75&w=400" alt="..."/>
+    <img class="img-fluid" src="https://ununsplash.imgix.net/photo-1431578500526-4d9613015464?fit=crop&fm=jpg&h=300&q=75&w=400" alt="..."/>
     <div class="title">
       <a href="#">
         <h4 class="title">회혼례 전통혼례 장미당 <small>우리옛멋</small>
