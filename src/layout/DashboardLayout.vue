@@ -6,9 +6,24 @@
         <i class="nc-icon nc-chart-pie-35"></i>
         <p>Dashboard</p>
       </sidebar-link>
+      <sidebar-link to="/admin/table-list">
+        <i class="nc-icon nc-notes"></i>
+        <p>1:1 고객문의</p>
+      </sidebar-link>
+      <sidebar-link to="/admin/table-list">
+        <i class="nc-icon nc-align-left-2"></i>
+        <p>혼례상담</p>
+      </sidebar-link>
       <sidebar-link to="/admin/gallery-list">
         <i class="nc-icon nc-album-2"></i>
+        <p>행사사진</p>
+      </sidebar-link>
+      <sidebar-link to="/admin/gallery-list">
+        <i class="nc-icon nc-square-pin"></i>
         <p>장소안내</p>
+      </sidebar-link><sidebar-link to="/admin/gallery-list">
+        <i class="nc-icon nc-button-play"></i>
+        <p>행사동영상</p>
       </sidebar-link>
       <sidebar-link to="/admin/user">
         <i class="nc-icon nc-circle-09"></i>
