@@ -12,6 +12,7 @@ import Maps from 'src/pages/Maps.vue'
 import Notifications from 'src/pages/Notifications.vue'
 import Upgrade from 'src/pages/Upgrade.vue'
 import GalleryList from "src/pages/GalleryList";
+import GalleryView from "../pages/GalleryView";
 
 const routes = [
   {
@@ -38,6 +39,11 @@ const routes = [
         path: 'gallery-list',
         name: 'Gallery List',
         component: GalleryList
+      },
+      {
+        path: 'gallery-view',
+        name: 'Gallery View',
+        component: GalleryView
       },
       {
         path: 'table-list',

@@ -18,7 +18,7 @@
   </div>
 </template>
 <script>
-  import gallery from './UserProfile/Gallery.vue'
+  import gallery from './Gallery/Gallery.vue'
 
   export default {
     components: {
