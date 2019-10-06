@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-md-5">
           <base-input type="text"
-                      label="Title"
+                      label="Writer(작성자)"
                       :disabled="true"
                       placeholder="제목을 입력 하세요"
                       v-model="posts.writer">
@@ -14,14 +14,15 @@
         </div>
         <div class="col-md-3">
           <base-input type="text"
-                      label="Username"
+                      label="User Id"
+                      :disabled="true"
                       placeholder="Username"
                       v-model="posts.userid">
           </base-input>
         </div>
         <div class="col-md-4">
           <base-input type="email"
-                      label="Email"
+                      label="User Email"
                       placeholder="Email"
                       v-model="posts.email">
           </base-input>
@@ -32,14 +33,16 @@
       <div class="row">
         <div class="col-md-6">
           <base-input type="text"
-                      label="First Name"
+                      label="Category Name "
+                      :disabled="true"
                       placeholder="First Name"
                       v-model="posts.postGroupName">
           </base-input>
         </div>
         <div class="col-md-6">
           <base-input type="text"
-                      label="Last Name"
+                      label="Category Code"
+                      :disabled="true"
                       placeholder="Last Name"
                       v-model="posts.postGroupKey">
           </base-input>
@@ -49,9 +52,17 @@
       <div class="row">
         <div class="col-md-12">
           <base-input type="text"
-                      label="Address"
+                      label="Title"
                       placeholder="Home Address"
-                      v-model="posts.body">
+                      v-model="posts.title">
+          </base-input>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <base-input label="Contents">
+            <textarea class="form-control" id="exampleFormControlTextarea3" rows="3" v-model="posts.body"></textarea>
           </base-input>
         </div>
       </div>
@@ -76,8 +87,10 @@
         data () {
             return {
                 posts: {
-                    title: '장소안내',
-                    body: 'post 답글 입력 테스트 post 내용 입력 테스트 중3',
+                    title: '낙성대 전통 혼례장 소개',
+                    body: 'post 답글 입력 테스트 post 내용 입력 테스트 중3' +
+                        '\r\npost 답글 입력 테스트 post 내용 입력 테스트 중3' +
+                        '\r\npost 답글 입력 테스트 post 내용 입력 테스트 중3',
                     writer: '우리옛멋',
                     userid: 'gonji500',
                     groupNum: '156729890939283',
