@@ -2,17 +2,13 @@
   <div class="content">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-4">
-          <gallery>
-          </gallery>
-        </div>
+        <gallery>
+        </gallery>
       </div>
       <div class="row">
-        <div class="col-md-4">
-          <button type="submit" class="btn btn-info btn-fill float-left" @click.prevent="updateProfile">
-            이미지 등록하기
-          </button>
-        </div>
+        <button type="submit" class="btn btn-info btn-fill float-left" @click.prevent="updateProfile">
+          이미지 등록하기
+        </button>
       </div>
     </div>
   </div>
