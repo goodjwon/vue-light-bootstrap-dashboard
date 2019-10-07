@@ -9,8 +9,6 @@
     </div>
     <div class="body">
       <p class="description"> "Lamborghini Mercy <br>
-        Your chick she so thirsty <br>
-        I'm in that two seat Lambo"
       </p>
     </div>
 
