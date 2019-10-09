@@ -8,7 +8,7 @@
           <base-input type="text"
                       label="Writer(작성자)"
                       :disabled="true"
-                      placeholder="제목을 입력 하세요"
+                      placeholder="제목을 입력 하세요.."
                       v-model="posts.writer">
           </base-input>
         </div>
@@ -87,11 +87,11 @@
         data () {
             return {
                 posts: {
-                    title: '낙성대 전통 혼례장 소개',
+                    title: '혼례장 소개...',
                     body: 'post 답글 입력 테스트 post 내용 입력 테스트 중3' +
                         '\r\npost 답글 입력 테스트 post 내용 입력 테스트 중3' +
                         '\r\npost 답글 입력 테스트 post 내용 입력 테스트 중3',
-                    writer: '우리옛멋',
+                    writer: '우리옛멋ㅇㅇㅇ',
                     userid: 'gonji500',
                     groupNum: '156729890939283',
                     postKey: '156729894619269',
